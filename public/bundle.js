@@ -155,7 +155,7 @@
 	    _this.state = {
 	      data: []
 	    };
-	    _this.apiUrl = 'https://57b1924b46b57d1100a3c3f8.mockapi.io/api/todos';
+	    _this.apiUrl = 'http://localhost:3001/list';
 	    return _this;
 	  }
 	  // Lifecycle method

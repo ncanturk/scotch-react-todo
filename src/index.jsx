@@ -56,7 +56,7 @@ class TodoApp extends React.Component{
     this.state = {
       data: []
     }
-    this.apiUrl = 'https://57b1924b46b57d1100a3c3f8.mockapi.io/api/todos'
+    this.apiUrl = 'http://localhost:3001/list'
   }
   // Lifecycle method
   componentDidMount(){
